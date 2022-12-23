@@ -1,0 +1,87 @@
+@import '../../assets/css/_Theme.scss';
+
+.loginpage {
+   background-color: gray;
+   height: 100vh;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(to bottom, #2c73d2, #4b6ed0, #6169cd, #7464c8, #845ec2);
+
+
+   .login_wrapper {
+      max-width: 700px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0px 0px 65px 1px rgba(165, 156, 156, 0.6);
+      -webkit-box-shadow: 0px 0px 65px 1px rgba(165, 156, 156, 0.6);
+      -moz-box-shadow: 0px 0px 65px 1px rgba(165, 156, 156, 0.6);
+
+      .login_left {
+         flex: 5;
+         padding: 20px;
+
+         button {
+            background-color: $thirdColor;
+            padding: 8px 30px;
+            box-shadow: 0px 0px 0px 0px #ddd;
+            color: #fff;
+            border-radius: 5px;
+            font-family: $poppinsFont;
+            text-transform: uppercase;
+            transition: all .4s ease-in-out;
+
+
+            &:hover {
+               background-color: #fff;
+               color: $thirdColor;
+
+            }
+         }
+      }
+
+      .login_right {
+         flex: 4;
+         background-color: $secondaryColor;
+         padding: 20px;
+         font-family: $poppinsFont;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: flex-start;
+
+         h3 {
+            color: #fff;
+         }
+
+         p {
+            color: #000;
+            font-size: 14px;
+         }
+
+         a {
+                 /* background-color: #0081CF; */
+               padding: 3px 8px;
+               box-shadow: 0px 0px 0px 0px #ddd;
+               color: #fff;
+               border-radius: 5px;
+               font-family: "Poppins", sans-serif;
+               text-transform: uppercase;
+               border: 1px solid transparent;
+               font-size: 12px;
+
+            &:hover {
+               background-color: #fff;
+               color: $thirdColor;
+               border: 1px solid $thirdColor;
+            }
+         }
+      }
+
+   }
+}

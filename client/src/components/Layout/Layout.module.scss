@@ -1,0 +1,12 @@
+.site_wrapper {
+     display: flex;
+
+     .navigation {
+        flex: 2;
+     }
+
+     .display {
+        flex: 10;
+        padding: 20px;
+     }
+}

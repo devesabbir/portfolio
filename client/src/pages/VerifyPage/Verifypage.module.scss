@@ -1,0 +1,15 @@
+.otppage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .otpbox {
+        max-width: 500px;
+        box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+        border-radius: 5px;
+        background-color: aqua;
+
+    }
+}

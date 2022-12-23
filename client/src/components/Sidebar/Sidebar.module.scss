@@ -1,0 +1,26 @@
+@import '../../assets/css/Theme';
+
+.siteSidebar{
+    background-color: $primaryColor;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column; 
+
+    &::-webkit-scrollbar{
+      width: 0 !important;
+    }
+
+    .log_out{
+        cursor: pointer;
+    }
+    
+    .logo {
+        display:flex;
+        padding:10px 0;
+        
+        img {
+            max-width: 150px;
+        }
+    }
+}

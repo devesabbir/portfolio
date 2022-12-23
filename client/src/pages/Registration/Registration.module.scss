@@ -1,0 +1,44 @@
+@import '../../assets/css/Theme';
+
+.registraion{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2c73d2, #4b6ed0, #6169cd, #7464c8, #845ec2);
+
+    .wrapper{
+       max-width: 500px;
+       width: 100%;
+       background-color: #fff;
+       border-radius: 5px;
+       padding: 20px;box-shadow: 0px 0px 36px 14px rgba(165,156,156,0.6);
+       -webkit-box-shadow: 0px 0px 36px 14px rgba(165,156,156,0.6);
+       -moz-box-shadow: 0px 0px 36px 14px rgba(165,156,156,0.6);
+
+       button {
+        background-color: $thirdColor;
+        padding: 8px 30px;
+        box-shadow: 0px 0px 0px 0px #ddd;
+        color: #fff;
+        border-radius: 5px;
+        font-family: $poppinsFont;
+        text-transform: uppercase;
+        transition: all .4s ease-in-out;
+
+        &:hover {
+           background-color: #fff;
+           color: $thirdColor;
+        }
+      }
+
+      .form_footer{
+          display: flex;
+          justify-content: flex-end;
+          padding: 10px;
+      }
+    }
+}
